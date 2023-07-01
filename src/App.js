@@ -104,12 +104,12 @@ export default function App() {
                     </Split>
                     :
                     <div className="no-notes">
-                        <h1>You have no notes</h1>
+                        <h1>Nothing to show </h1>
                         <button
                             className="first-note"
                             onClick={createNewNote}
                         >
-                            Create one now
+                            Add Some 📝
                 </button>
                     </div>
 

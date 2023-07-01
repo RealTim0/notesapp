@@ -10,6 +10,7 @@ body {
 
 button:focus {
     outline: none;
+    background-color: gold;
 }
 
 .ql-editor p,
@@ -44,9 +45,9 @@ button:focus {
 
 .new-note {
     cursor: pointer;
-    background-color: #4A4E74;
+    background-color: green;
     border: none;
-    color: white;
+    color: gold;
     border-radius: 3px;
     height: 30px;
     width: 30px;
@@ -54,9 +55,9 @@ button:focus {
 
 .first-note {
     cursor: pointer;
-    background-color: #4A4E74;
+    background-color: green;
     border: none;
-    color: white;
+    color: gold;
     border-radius: 3px;
     padding: 1rem;
 }
@@ -95,18 +96,18 @@ button:focus {
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.2rem;
-    color: #4A4E74;
+    color: green;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .selected-note {
-    background-color: #4A4E74;
+    background-color: green;
 }
 
 .selected-note .text-snippet {
-    color: white;
+    color: black;
     font-weight: 700;
 }
 
@@ -136,7 +137,7 @@ button:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: goldenrod;
 }
 
 .delete-btn {
